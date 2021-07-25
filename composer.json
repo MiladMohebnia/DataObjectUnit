@@ -1,7 +1,7 @@
 {
     "name": "miladm/dou",
     "type": "library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "require": {
         "miladm/prototype": "^1.12"
     },

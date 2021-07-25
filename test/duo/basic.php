@@ -37,6 +37,8 @@ class User extends DataObjectUnit implements OnBeforeSet
         return $value;
     }
 }
+
+
 $user = new User();
 $user->load(['id' => 1]);
 $user->password = 'milado';
