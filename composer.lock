@@ -1,0 +1,166 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2387e8150cc110c012f3835d4f7ee34d",
+    "packages": [
+        {
+            "name": "miladm/data-object",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiladMohebnia/PHP_dataObject.git",
+                "reference": "b6cd7bb0396bcd5242e8c2f002737c2756ff12ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiladMohebnia/PHP_dataObject/zipball/b6cd7bb0396bcd5242e8c2f002737c2756ff12ac",
+                "reference": "b6cd7bb0396bcd5242e8c2f002737c2756ff12ac",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "miladm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "MiladM",
+                    "email": "miladmohebnia@gmail.com"
+                }
+            ],
+            "description": "simply control your data with data object method",
+            "support": {
+                "issues": "https://github.com/MiladMohebnia/PHP_dataObject/issues",
+                "source": "https://github.com/MiladMohebnia/PHP_dataObject/tree/v1.1.1"
+            },
+            "time": "2020-11-17T10:04:57+00:00"
+        },
+        {
+            "name": "miladm/orm",
+            "version": "3.9.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiladMohebnia/PHP_ORM.git",
+                "reference": "4f699e6178198c3883ad24bec6159cb71c13f303"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiladMohebnia/PHP_ORM/zipball/4f699e6178198c3883ad24bec6159cb71c13f303",
+                "reference": "4f699e6178198c3883ad24bec6159cb71c13f303",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "miladm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "MiladM",
+                    "email": "miladmohebnia@gmail.com"
+                }
+            ],
+            "description": "basic orm for php",
+            "support": {
+                "issues": "https://github.com/MiladMohebnia/PHP_ORM/issues",
+                "source": "https://github.com/MiladMohebnia/PHP_ORM/tree/v3.9.9"
+            },
+            "time": "2020-10-20T10:04:52+00:00"
+        },
+        {
+            "name": "miladm/prototype",
+            "version": "1.12.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiladMohebnia/prototype.git",
+                "reference": "97f6e507f7b1f3f98d59712c9a3bf112525af3f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiladMohebnia/prototype/zipball/97f6e507f7b1f3f98d59712c9a3bf112525af3f8",
+                "reference": "97f6e507f7b1f3f98d59712c9a3bf112525af3f8",
+                "shasum": ""
+            },
+            "require": {
+                "miladm/data-object": "^1.0",
+                "miladm/orm": "3.9.9",
+                "miladm/prototype_cli": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "miladm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "MiladM",
+                    "email": "miladmohebnia@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MiladMohebnia/prototype/issues",
+                "source": "https://github.com/MiladMohebnia/prototype/tree/v1.12.5"
+            },
+            "time": "2020-11-14T18:16:31+00:00"
+        },
+        {
+            "name": "miladm/prototype_cli",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiladMohebnia/prototype_cli.git",
+                "reference": "1c1a53c24a5e1da192029ca4e2898d4ad930c5dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiladMohebnia/prototype_cli/zipball/1c1a53c24a5e1da192029ca4e2898d4ad930c5dd",
+                "reference": "1c1a53c24a5e1da192029ca4e2898d4ad930c5dd",
+                "shasum": ""
+            },
+            "type": "script",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "APACHE-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "MiladM",
+                    "email": "miladmohebnia@gmail.com"
+                }
+            ],
+            "description": "a simple cli for miladm/prototype",
+            "support": {
+                "issues": "https://github.com/MiladMohebnia/prototype_cli/issues",
+                "source": "https://github.com/MiladMohebnia/prototype_cli/tree/v1.0.0"
+            },
+            "time": "2020-10-18T15:33:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
