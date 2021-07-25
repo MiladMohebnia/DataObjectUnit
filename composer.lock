@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2387e8150cc110c012f3835d4f7ee34d",
+    "content-hash": "9c8c0092d36131107d4260f50d649338",
     "packages": [
         {
             "name": "miladm/data-object",
@@ -82,20 +82,20 @@
         },
         {
             "name": "miladm/prototype",
-            "version": "1.12.5",
+            "version": "1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MiladMohebnia/prototype.git",
-                "reference": "97f6e507f7b1f3f98d59712c9a3bf112525af3f8"
+                "reference": "3ceab51b3a118ea886e2a4426dda9c69d4d604aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MiladMohebnia/prototype/zipball/97f6e507f7b1f3f98d59712c9a3bf112525af3f8",
-                "reference": "97f6e507f7b1f3f98d59712c9a3bf112525af3f8",
+                "url": "https://api.github.com/repos/MiladMohebnia/prototype/zipball/3ceab51b3a118ea886e2a4426dda9c69d4d604aa",
+                "reference": "3ceab51b3a118ea886e2a4426dda9c69d4d604aa",
                 "shasum": ""
             },
             "require": {
-                "miladm/data-object": "^1.0",
+                "miladm/data-object": "^1.1",
                 "miladm/orm": "3.9.9",
                 "miladm/prototype_cli": "^1.0"
             },
@@ -117,9 +117,9 @@
             ],
             "support": {
                 "issues": "https://github.com/MiladMohebnia/prototype/issues",
-                "source": "https://github.com/MiladMohebnia/prototype/tree/v1.12.5"
+                "source": "https://github.com/MiladMohebnia/prototype/tree/v1.13.0"
             },
-            "time": "2020-11-14T18:16:31+00:00"
+            "time": "2021-07-23T19:34:07+00:00"
         },
         {
             "name": "miladm/prototype_cli",
